@@ -38,6 +38,8 @@ any `on*` pattern regex
 ```
 - refer from code in XSpear
 - https://github.com/hahwul/XSpear/blob/master/lib/XSpear.rb
+- If you need an event handler list to develop, refer to the path below.
+ + https://github.com/hahwul/can-i-protect-xss/blob/master/resource/event_handler.txt
 
         'onAbort',
         'onActivate',
