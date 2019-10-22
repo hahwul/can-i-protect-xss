@@ -4,6 +4,18 @@ Everything about xss protection technology
 ## :100: Best practice
 Get and handle only the values that developers can predict.
 
+e.g 
+```
+/list?id=1
+/list?id=2
+/list?id=3
+....
+
+In this case, only numeric values are required for the id parameter. 
+For these parameters, that you better not to not processing other than type(string, etc..) for avoid multiple vulnerability. 
+It's better not to aim for unnecessary reflection and DOM write.
+```
+
 ## :shield: Protection Technic
 ### 1. Escape the Special char
 `&` => `&amp;`<br>
