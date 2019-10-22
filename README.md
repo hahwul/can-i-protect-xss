@@ -192,6 +192,7 @@ var content = XSSProtect(localStorage.getItem('content')) #
 ```
 Content-Security-Policy: default-src https://google.com
 ```
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 
 ### X-XSS-Protection
 ```
@@ -200,6 +201,7 @@ X-XSS-Protection: 1
 X-XSS-Protection: 1; mode=block
 X-XSS-Protection: 1; report=<reporting-uri>
 ```
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
 
 ## :package: Opensource protection library
 - ?
@@ -213,6 +215,6 @@ X-XSS-Protection: 1; report=<reporting-uri>
 Add issue or send pull request contents. I like collaboration.
 
 ## :scroll: Reference
-https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html<br>
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection<br>
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP<br>
