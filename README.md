@@ -195,6 +195,9 @@ X-XSS-Protection: 1; report=<reporting-uri>
 - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 - https://blog.rubiya.kr/index.php/2019/03/28/browsers-xss-filter-bypass-cheat-sheet/
 
+## :shipit: Contributing method
+Add issue or send pull request contents. I like collaboration.
+
 ## :scroll: Reference
 https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
