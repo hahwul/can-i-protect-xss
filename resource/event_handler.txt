@@ -1,4 +1,5 @@
-arr = [        'onAbort',
+var arr = [        
+        'onAbort',
         'onActivate',
         'onAfterPrint',
         'onAfterUpdate',
